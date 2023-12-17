@@ -3,11 +3,14 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 [project]
 name = "html_image_embedder"
-version = "0.0.1"
+version = "1.0.0"
 authors = [{ name = "Matthew Hajec", email = "matthew.hajec02@gmail.com" }]
 description = "Converts images to base64 and embeds them in HTML files."
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.7"
+dependencies = [
+    "selectolax>=0.3",
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
